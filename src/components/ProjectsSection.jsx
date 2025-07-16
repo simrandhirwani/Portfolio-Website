@@ -3,23 +3,26 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+  title: "SkinCache",
+  description:
+    "A skincare and beauty product price comparison platform inspired by Tira and Nykaa. Built using React and TailwindCSS.",
+  image: "/projects/skincache.png",
+  tags: ["React", "TailwindCSS", "API Integration"],
+  demoUrl: "https://skincache.vercel.app", 
+  githubUrl: "https://github.com/simrandhirwani/skincache", 
+
   },
-  {
-    id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+ {
+  id: 2,
+  title: "Sense AI",
+  description:
+    "An AI-powered career coach platform using Gemini API, Clerk auth, Prisma, Neon DB, and Inngest. Helps users craft resumes, get interview prep, and more.",
+  image: "/projects/senseai.png",
+  tags: ["Next.js", "TailwindCSS", "Prisma", "Gemini API", "Clerk", "Inngest"],
+  demoUrl: "https://sense-ai-clxn.vercel.app/", 
+  githubUrl: "https://github.com/simrandhirwani/sense-AI",
+},
+
   {
     id: 3,
     title: "E-commerce Platform",
@@ -100,7 +103,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/simrandhirwani/Portfolio-Website"
           >
             Check My Github <ArrowRight size={16} />
           </a>
